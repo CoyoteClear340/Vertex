@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## <a name="introduction">✨ Introduction</a>
 
-## Getting Started
+Vertex is a production-ready full-stack learning platform designed to revolutionize video content discovery and course administration. On the learner side, users can search video lessons using natural language queries and immediately jump to the exact second where a topic is explained. On the administrative side, authors access a comprehensive management dashboard to curate courses, structure modules, and publish instructor profiles.
 
-First, run the development server:
+Beyond its end-user functionality, Vertex showcases a structured agentic engineering workflow. By utilizing custom agent skills, project rules, and context files, developers can stay in control as architects while leveraging AI coding assistants to build complex features with security, speed, and scalability.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## <a name="features">🔋 Features</a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 **Intelligent Video Search**: Search video content using plain-English natural language queries to seek directly to the exact second a topic is discussed.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 **Author Admin Dashboard**: Comprehensive management interface for course creators to construct modules, arrange lessons, and manage instructor profiles.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👉 **Role-Based Authentication**: Secure authentication powered by Clerk with route protection separating student learning portals from admin features.
 
-## Learn More
+👉 **Headless CMS Integration**: Real-time content management powered by Sanity for dynamic catalog management and video metadata updates.
 
-To learn more about Next.js, take a look at the following resources:
+👉 **Product Analytics**: Integrated user tracking and event telemetry powered by PostHog to analyze user behavior and engagement metrics.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👉 **Agentic Engineering Workflow**: Built using custom agent skills, context files, and explicit project rules to maintain structured development without prompt chaos.
